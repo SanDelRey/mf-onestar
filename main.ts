@@ -1,5 +1,6 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
-// one line, exactly as the judge reads it
+// deadpan one-star review of an everyday essential
+// exactly one line, nothing else
 const LINE = 'One star. Four billion years of free service and it still gets in my eyes every single morning I drive east.';
 const out = (process.env.MAKEFUN_OUTPUT_DIR ?? '/output').replace(/\/$/, '');
 mkdirSync(out, { recursive: true });
